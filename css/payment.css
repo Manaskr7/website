@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;  
+}
+body{
+  background-color: #ffffff;
+}
+
+
+
+
+
+.main-body{
+    height: 1000px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+}
+
+
+
+
+.left-main{
+    height: 90%;
+    width: 50%;
+    margin: 50px 0px 50px 50px;
+    background-color:#c6cccc;
+    border-radius: 10px 0px 0px 10px;
+}
+.logo{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+.logo-bar{
+    height: 60px;
+    width: 200px;
+   
+}
+.logoa {
+    background-image: url(../Images/logob.png);
+    background-size: cover;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    vertical-align: center;
+}
+
+.text1{
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+
+.text1 p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #c45500;
+}
+
+.card-main{
+    margin: 5px;
+ height: 190px;
+ background-color: #f8f8f8;
+ border-radius: 10px;
+}
+.card-main input{
+    margin: 5px;
+}
+.card-radio{
+    display: flex;
+}
+.card-radio p{
+    margin: 2px;
+    font-weight: 600;
+}
+.card-block{
+    height: 160px;
+    width: 47%;
+    background-color: rgb(141, 181, 251);
+    border-radius: 8px;
+    margin-left: 100px;
+}
+.card-block p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.card-block input{
+    border-radius: 5px;
+    height: 20px;
+}
+.cvv{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cvv input{
+    width: 60px;
+}
+.cvv-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.other p{
+    margin-left: -10px;
+}
+.net-block{
+ margin: 5px 5px;
+ height: auto;
+ background-color: #f8f8f8;
+ border-radius: 10px;
+ padding: 10px;
+}
+.net-block p{
+    margin-right: 10px; ;
+}
+
+.net-radio{
+    display: flex;
+}
+.net-block select{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.net-radio p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+.upi-block{
+    height: auto;
+}
+.upi-text p{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.upi-block2{
+    display: flex;
+}
+.upi-block2 input{
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.upi-block3 button{
+    width: 65px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 5px;
+    height: 20px;
+    margin: 7px;
+    border: 2px solid black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cod-text{
+    margin-left: 15px;
+}
+
+.text2{
+    padding: 15px;
+}
+.text2 p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.right-main{
+    height: 90%;
+    width: 50%;
+    margin: 50px 50px 50px 0px;
+    border-radius: 0px 10px 10px 0px;
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    border-right: 1.5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.check-con{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.check-con p{
+    color: white;
+    font-size: 60px;
+    font-weight: 540;
+    font-family: cursive;
+}
+
+.sign-box{
+    width: 65%;
+    height: 50%;
+    background-color: #b5bebe;
+    border-radius: 10px;
+}
+
+.sign-text-box{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.sign-text-box p{
+    font-size: 45px;
+    font-weight: 540;
+    font-family: cursive;
+}
+.item{
+    display: flex;
+}
+.item-text{
+    width: 50%;
+}
+.item p{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.price{
+    padding-right: 30px;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.price p{
+    margin-right: 20px;
+}
+
+.order{
+    display: flex;
+    margin: 5px;
+
+}
+.order p{
+    color: #B12704;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.order-text{
+    width: 50%;
+}
+.order-price{
+    width: 50%;
+    padding-right: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text{
+    margin: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.submit button{
+    height: 31px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+    margin: 15px;
+}
+
+
+

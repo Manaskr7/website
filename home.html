@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allatom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Responsive.css">
+</head>
+<body>
+
+
+
+
+                  <!--Nevigation bar code -->
+
+    <header>
+        <div class="bar">
+
+          <div class="barle">
+            <div class="bar-logo border">
+                <div class="logo">
+                </div>
+            </div>
+          </div>
+
+            <div class="barri">           
+            <div class="bar-search s-border">
+                    <input placeholder="   Search Items" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                    </div>
+                </select>
+            </div>
+
+            <div class="bar-singin border ">
+                <a class="bar-2" href="page/sign.html">Sign In</a>
+            </div>
+
+            
+            <div class="bar-singin border">
+                <a class="bar-2" href="page/order.html">Orders</a>
+            </div>
+
+            <div class="bar-cart border">
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                cart
+            </div>
+          </div>
+        </div>
+    </header>
+
+      
+
+
+                   <!-- All Web -->
+<div class="all-web">
+                  <!-- Head Sliding Image code  -->
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides radious fade">
+  <img src="Images/head5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides radious fade">
+  <img src="Images/head1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides radious fade">
+  <img src="Images/head4.jpg" style="width:100%">
+</div>
+
+<div class="mySlides radious fade">
+  <img src="Images/head3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides radious fade">
+  <img src="Images/head2.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+        </script>
+
+
+              <!-- block coode -->
+
+
+
+
+<div class="shop-section">
+
+
+  <div class="box">
+
+    <h2>Ladies Section</h2>
+
+    <div class="box-image">
+      <a href="page/ladies-sec.html">
+        <img src="Images/product/all/002001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add min">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>40% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+    <div class="box-link">
+      <a href="">see more</a>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div class="box">
+
+    <h2>Men's section</h2>
+
+    <div class="box-image">
+      <a href="page/Men's section.html">
+        <img src="Images/product/all/034001.webp" alt="Product Image">
+      </a>
+    </div>
+
+    <div class="box-add min">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>55% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+    <div class="box-link">
+      <a href="">see more</a>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="box">
+
+    <h2>Fashion Summer Sale</h2>
+
+    <div class="box-image">
+      <a href="page/Fashion Summer Sale.html">
+        <img src="Images/product/all/007001.jpg" alt="Product Image">
+      </a>
+    </div>
+
+    <div class="box-add min">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>33% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+    <div class="box-link">
+      <a href="">see more</a>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="box">
+
+    <h2>Men's Summer Sale</h2>
+
+    <div class="box-image">
+      <a href="page/Men's Summer Sale.html">
+        <img src="Images/product/all/017001.jpg" alt="Product Image">
+      </a>
+    </div>
+
+    <div class="box-add min">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>75% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+    <div class="box-link">
+      <a href="">see more</a>
+    </div>
+  </div>
+    
+  </div>
+
+
+</div>
+
+
+<div class="shop-list">
+
+  <div class="list-container">
+
+    <div class="list-text">
+        <p>More items to consider</p>
+    </div>
+
+    <div class="list-boxc">
+
+      <div class="list-box">
+        <a href="page/order01.html">
+          <img src="Images/product/all/001001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order02.html">
+          <img src="Images/product/all/002001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order03.html">
+          <img src="Images/product/all/003001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order04.html">
+          <img src="Images/product/all/004001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order05.html">
+          <img src="Images/product/all/005001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order06.html">
+          <img src="Images/product/all/006001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order07.html">
+          <img src="Images/product/all/007001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order08.html">
+          <img src="Images/product/all/008001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order09.html">
+          <img src="Images/product/all/009001.webp" alt="">
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="shop-section sec-line">
+
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order03.html">
+        <img src="Images/product/all/003001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>33% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Embroidered Anarkali Regular Kurta</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order10.html">
+        <img src="Images/product/all/010001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>44% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Black Barry</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order018.html">
+        <img src="Images/product/all/018001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>27% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Bewakoof Men's T-Shirt</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order12.html">
+        <img src="Images/product/all/012001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>70% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>matching cloth for coupole</p>
+    </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="shop-list">
+
+  <div class="list-container">
+
+    <div class="list-text">
+        <p>Men's More Items</p>
+    </div>
+
+    <div class="list-boxc">
+
+      <div class="list-box">
+        <a href="page/order13.html">
+          <img src="Images/product/all/013001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order14.html">
+          <img src="Images/product/all/014001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order15.html">
+          <img src="Images/product/all/015001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order16.html">
+          <img src="Images/product/all/016001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order017.html">
+          <img src="Images/product/all/017001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order018.html">
+          <img src="Images/product/all/018001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order019.html">
+          <img src="Images/product/all/019001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order021.html">
+          <img src="Images/product/all/021001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order022.html">
+          <img src="Images/product/all/022001.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="shop-section sec-line">
+
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order11.html">
+        <img src="Images/product/all/011001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>38% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Women'S Pink Color Silk Saree</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order019.html">
+        <img src="Images/product/all/019001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>57% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Lymio Men Stylish</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order037.html">
+        <img src="Images/product/all/037001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>15% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Men trouser Solid Suit</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order031.html">
+        <img src="Images/product/all/031001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>51% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Men Slim Fit Single Breasted Solid Suit</p>
+    </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="shop-list">
+
+  <div class="list-container">
+
+    <div class="list-text">
+        <p>Inspired by your browsing history</p>
+    </div>
+
+    <div class="list-boxc">
+
+      <div class="list-box">
+        <a href="page/order023.html">
+          <img src="Images/product/all/023001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order024.html">
+          <img src="Images/product/all/024001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order025.html">
+          <img src="Images/product/all/025001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order026.html">
+          <img src="Images/product/all/026001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order027.html">
+          <img src="Images/product/all/027001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order028.html">
+          <img src="Images/product/all/028001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order029.html">
+          <img src="Images/product/all/029001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order03.html">
+          <img src="Images/product/all/003001.jpg" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order031.html">
+          <img src="Images/product/all/031001.webp" alt="">
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="shop-section sec-line">
+
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order05.html">
+        <img src="Images/product/all/005001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>22% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Taboody Empire Vichitra Silk Embroidered Work With Saree</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order02.html">
+        <img src="Images/product/all/002001.jpg" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>31% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>FIORRA Women's Kurta Set With Dupatta</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order031.html">
+        <img src="Images/product/all/031001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>31% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Blend Asymmetric Kurta</p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div class="box">
+
+    <div class="box-image">
+
+      <a href="page/order036.html">
+        <img src="Images/product/all/036001.webp" alt="Product Image">
+      </a>
+    </div>
+    <div class="box-add">
+      <div class="box-add1">
+      <div class="offer1">
+        <p>21% off</p>
+      </div>
+      <div class="offer2">
+        <p> Limited Time Deal</p>
+      </div>
+    </div>
+
+    <div class="box-add2">
+      <p>Men SLIM FIT Solid Suit</p>
+    </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+                        <!-- ladies -->
+
+
+
+                        <!-- jean's -->
+
+<div class="shop-list">
+
+  <div class="list-container">
+
+    <div class="list-text">
+        <p>Customers who viewed items in your browsing history also viewed</p>
+    </div>
+
+    <div class="list-boxc">
+
+      <div class="list-box">
+        <a href="page/order10.html">
+          <img src="Images/product/all/010001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order11.html">
+          <img src="Images/product/all/011001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order12.html">
+          <img src="Images/product/all/012001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order031.html">
+          <img src="Images/product/all/031001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order034.html">
+          <img src="Images/product/all/034001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order035.html">
+          <img src="Images/product/all/035001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order036.html">
+          <img src="Images/product/all/036001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order037.html">
+          <img src="Images/product/all/037001.webp" alt="">
+        </a>
+      </div>
+      <div class="list-box">
+        <a href="page/order038.html">
+          <img src="Images/product/all/038001.webp" alt="">
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+          
+</div>
+
+                        <!-- Footer Code -->
+
+  
+  <footer class="foot">
+
+    <div class="foot-panal1">
+
+        <a href="">Back To Top</a>
+
+    </div>
+
+    <div class="foot-panal2">
+
+      <div class="lfoot-panal2">
+
+        <ul>
+
+          <p>Know Us</p>
+          <a href="">About Us</a>
+          <a href="">Terms & Conditions</a>
+          <a href="">Patner</a>
+          <a href="">Delivery</a>
+          <!-- <a href="">About Us</a> -->
+
+        </ul>
+        <ul>
+
+          <p>Connect With Us</p>
+          <a href="">Contact Us</a>
+          <a href="">Customer support</a>
+          <a href="">Email</a>
+          <a href="">feedback</a>
+
+        </ul>
+
+      </div>
+
+      <div class="rfoot-panal2">
+
+        <div class="foot-icon">
+          <div class="facebook">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook-f" style="color: #2474ff;"></i>
+            </a>
+          </div>
+
+          <div class="instagram">
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            </a>
+          </div>
+
+          <div class="linkdin">
+            <a href="https://www.linkedin.com/in/manas-kumar-b89bb3302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+
+          <div class="youtube">
+            <a href="https://www.youtube.com/@allatomshopping./featured">
+              <i class="fa-brands fa-youtube" style="color: #f33f3f;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="upi">
+          <img class="u" src="Images/UPItran.png" alt="UPI">
+          <img class="a" src="Images/all-payment.png" alt="">
+        </div>
+
+      </div>
+
+      
+
+    </div>
+
+    <div class="foot-panal3">
+      <div class="bar-logo">
+        <div class="logo">
+        </div>
+    </div>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>

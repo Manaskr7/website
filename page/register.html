@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="../css/registation.css" />
+<meta name="robots" content="noindex, follow">
+<script nonce="30482957-a35f-4794-bc62-30bc20740ab6">try{(function(w,d){!function(kL,kM,kN,kO){kL[kN]=kL[kN]||{};kL[kN].executed=[];kL.zaraz={deferred:[],listeners:[]};kL.zaraz.q=[];kL.zaraz._f=function(kP){return async function(){var kQ=Array.prototype.slice.call(arguments);kL.zaraz.q.push({m:kP,a:kQ})}};for(const kR of["track","set","debug"])kL.zaraz[kR]=kL.zaraz._f(kR);kL.zaraz.init=()=>{var kS=kM.getElementsByTagName(kO)[0],kT=kM.createElement(kO),kU=kM.getElementsByTagName("title")[0];kU&&(kL[kN].t=kM.getElementsByTagName("title")[0].text);kL[kN].x=Math.random();kL[kN].w=kL.screen.width;kL[kN].h=kL.screen.height;kL[kN].j=kL.innerHeight;kL[kN].e=kL.innerWidth;kL[kN].l=kL.location.href;kL[kN].r=kM.referrer;kL[kN].k=kL.screen.colorDepth;kL[kN].n=kM.characterSet;kL[kN].o=(new Date).getTimezoneOffset();if(kL.dataLayer)for(const kY of Object.entries(Object.entries(dataLayer).reduce(((kZ,k$)=>({...kZ[1],...k$[1]})),{})))zaraz.set(kY[0],kY[1],{scope:"page"});kL[kN].q=[];for(;kL.zaraz.q.length;){const la=kL.zaraz.q.shift();kL[kN].q.push(la)}kT.defer=!0;for(const lb of[localStorage,sessionStorage])Object.keys(lb||{}).filter((ld=>ld.startsWith("_zaraz_"))).forEach((lc=>{try{kL[kN]["z_"+lc.slice(7)]=JSON.parse(lb.getItem(lc))}catch{kL[kN]["z_"+lc.slice(7)]=lb.getItem(lc)}}));kT.referrerPolicy="origin";kT.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(kL[kN])));kS.parentNode.insertBefore(kT,kS)};["complete","interactive"].includes(kM.readyState)?zaraz.init():kL.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document)}catch(e){throw fetch("/cdn-cgi/zaraz/t"),e;};</script></head>
+<body class="form-v10">
+  
+<div class="page-content">
+
+ 
+
+<div class="form-v10-content">
+<form class="form-detail" action="#" method="post" id="myform">
+<div class="form-left">
+<h2>General Infomation</h2>
+<div class="form-row">
+<select name="title">
+<option class="option" value="title">Title</option>
+<option class="option" value="businessman">None</option>
+<option class="option" value="reporter">Mr</option>
+<option class="option" value="secretary">Miss</option>
+</select>
+<span class="select-btn">
+<i class="zmdi zmdi-chevron-down"></i>
+</span>
+</div>
+<div class="form-group">
+<div class="form-row form-row-1">
+<input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required>
+</div>
+<div class="form-row form-row-2">
+<input type="text" name="last_name" id="last_name" class="input-text" placeholder="Last Name" required>
+</div>
+</div>
+<div class="form-row">
+<select name="Gender">
+<option value="position">Gender</option>
+<option value="director">Male</option>
+<option value="manager">Female</option>
+<option value="employee">Other</option>
+</select>
+<span class="select-btn">
+<i class="zmdi zmdi-chevron-down"></i>
+</span>
+</div>
+<div class="form-row">
+<input type="text" name="company" class="company" id="company" placeholder="Email Id" required>
+</div>
+<div class="form-group">
+<div class="form-row form-row-3">
+<input type="text" name="business" class="business" id="business" placeholder="DOB" required>
+</div>
+
+</div>
+</div>
+<div class="form-right">
+<h2>Contact Details</h2>
+<div class="form-row">
+<input type="text" name="street" class="street" id="street" placeholder="Street" required>
+</div>
+<div class="form-row">
+<input type="text" name="additional" class="additional" id="additional" placeholder="Additional Information" required>
+</div>
+<div class="form-group">
+<div class="form-row form-row-1">
+<input type="text" name="zip" class="zip" id="zip" placeholder="Zip Code" required>
+</div>
+<div class="form-row form-row-2">
+<select name="place">
+<option value="place">Place</option>
+<option value="Street">Street</option>
+<option value="District">District</option>
+<option value="City">City</option>
+</select>
+<span class="select-btn">
+<i class="zmdi zmdi-chevron-down"></i>
+</span>
+</div>
+</div>
+<div class="form-row">
+<select name="country">
+<option value="country">Country</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Malaysia">Malaysia</option>
+<option value="India">India</option>
+</select>
+<span class="select-btn">
+<i class="zmdi zmdi-chevron-down"></i>
+</span>
+</div>
+<div class="form-group">
+<div class="form-row form-row-1">
+<input type="text" name="code" class="code" id="code" placeholder="Code" required>
+</div>
+<div class="form-row form-row-2">
+<input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+</div>
+</div>
+<div class="form-row">
+<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Your Email">
+</div>
+<div class="form-checkbox">
+<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+<input type="checkbox" name="checkbox">
+<span class="checkmark"></span>
+</label>
+</div>
+<div class="form-row-last">
+<input type="submit" name="register" class="register" value="Register Badge">
+</div>
+</div>
+</form>
+</div>
+</div>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793" integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg==" data-cf-beacon='{"rayId":"875b07378e81a75c","version":"2024.3.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+body{
+    background-color: white
+}
+
+.all-web{
+    margin-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.head1{
+    margin-left: 15px;display: flex;
+    justify-content: center;
+}
+.head1 p{
+    font-size: 50px;
+    font-weight: 700;
+    font-family:  Courier;
+} 
+
+.sec-con{
+    /* background-color: tomato; */
+    height: 400px;
+    width: 98%;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.img-sec-con{
+    height: 95%;
+    width: 350px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img-sec-con img{
+    max-height: 380px;
+    max-width: 350px; 
+    border-radius: 10px;
+}
+.dec-sec-con{
+    width: 700px;
+    height: 95%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+}
+.name-sec-con{
+    margin: 20px 10px;
+    height: auto;
+    width: auto;
+}
+.name-sec-con p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pd-sec-con{
+    margin-left: 20px;
+}
+.pd-sec-con p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pdw-sec-con{
+       height: 180px;
+        margin: 20px;
+
+}
+.lin-sec-con{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.lin-sec-con a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.pri-sec-con{
+    margin: 20px;
+}
+.pri-sec-con p{
+    color: #CC0C39;
+    font-family: Courier;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.img-sec-con2{
+    height: 95%;
+    width: 350px;
+    /* background-color: aliceblue; */
+     /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.rat-sec-con{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.pri-tex-sec-con{
+    height: 135px;
+    padding: 20px;
+
+}
+.pri-tex-sec-con p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.butadd-sec-con{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.butadd-sec-con button{
+    height: 29px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+.butbuy-sec-con{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.butbuy-sec-con button{
+    height: 29px;
+    width: 200px;
+    border-radius: 20px;
+    background-color:rgb(255 178 53);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.loc-tex-sec-con{
+    display: flex;
+    margin: 5px;
+    padding-left: 20px;
+
+}
+.loc-tex-sec-con i{
+    margin: 5px;
+}
+.loc-tex-sec-con p{
+    margin: 5px;
+    color: blue;
+}

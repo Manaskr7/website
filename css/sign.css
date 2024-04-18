@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;  
+}
+body{
+  background-color: #ffffff;
+}
+
+.hov{
+    border: 2px solid black;
+}
+
+.hov:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+
+.main-body{
+    height: 1000px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+}
+
+
+
+
+.left-main{
+    height: 90%;
+    width: 50%;
+    margin: 50px 0px 50px 50px;
+    background-color:#c6cccc;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-bar{
+    height: 60px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.logoa {
+    background-image: url(../Images/logob.png);
+    background-size: cover;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    vertical-align: center;
+}
+
+.sign-box{
+    width: 75%;
+    height: 50%;
+    background-color: #b5bebe;
+    border-radius: 10px;
+}
+.sign-text-box{
+    display: flex;
+    justify-content: center;
+}
+.sign-text-box p{
+    font-size: 50px;
+    font-weight: 540;
+    font-family: cursive;
+}
+.login-text{
+    margin-left: 38px;
+    margin-top: 15px;
+}
+.login-text p{
+    font-family: serif;
+    font-weight: 550;
+    margin-left: 2px;
+    margin-bottom: -10px;
+}
+.login-box input{
+    height: 31px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.submit button{
+    height: 31px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    cursor: pointer;
+}
+.submit-facebook{
+    display: flex;
+    justify-content: center;
+}
+.submit-facebook button{
+    height: 31px;
+    width: 300px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #b5bebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.submit-google{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.logo img{
+    height: 16px;
+    margin-right: 6px;
+}
+.submit-google button{
+    height: 31px;
+    width: 300px;
+    border-radius: 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #b5bebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.right-main{
+    height: 90%;
+    width: 50%;
+    margin: 50px 50px 50px 0px;
+    background-image: url(../Images/sign2.jpg);   
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+    /* background-color: rgb(255, 0, 0); */
+    border-radius: 0px 10px 10px 0px;
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    border-right: 1.5px solid white;
+}
+.right-main img{
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.st{
+    margin-bottom: 130px;
+}
